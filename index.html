@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app="chinApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Chinchillas, Y'all!</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+
+  <body ng-controller="chinAppController as chin">
+    <header>
+      CHINCHILLAS Y'ALL!
+    </header>
+
+    <section class="adopt">
+      <h1>Adopt!</h1>
+      <div class="chinContainer1">
+        <div class="chinEntry" ng-repeat="chin in chin.chinArray">
+          <img src="{{chin.image}}"/> <br>
+          {{chin.name}} <br>
+          {{chin.age}} <br>
+          {{chin.gender}} <br>
+          <input type="checkbox">Adopt me?!
+        </div>
+        <!-- Checkbox syntax for end of kitty desc -->
+      </div>
+    </section>
+
+    <section class="adopted">
+      <h1>Adopted!</h1>
+      <div class="chinContainer2">
+        <input type="checkbox">Adopt me?!
+      <!-- // where the chinchillas at -->
+      <!-- Checkbox syntax for end of kitty desc -->
+      </div>
+    </section>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script type src="chinController.js"></script>
+
+  </body>
+</html>

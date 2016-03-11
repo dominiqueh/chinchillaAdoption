@@ -1,0 +1,60 @@
+/* header to be static where chins are dynamic */
+header {
+  background-color: papayawhip;
+  text-align: center;
+  font-size: 20px;
+  height: 40px;
+  border-radius: 10px;
+  padding-top: 14px;
+}
+body {
+  background: #ffffff url("https://49.media.tumblr.com/5fbf2a2293d2ddc84ea7694131f91073/tumblr_o0xdlzPoaC1umlus3o1_500.gif") repeat center center;
+}
+h1 {
+  /*position:fixed;*/
+  text-align: center;
+}
+img{
+  height: 150px;
+  width: 150px;
+}
+/*chinchillas to be placed within area*/
+.container{
+
+}
+.adopt{
+  background-color: #ec6d61;
+  height: 700px;
+  width: 250px;
+  float:left;
+  border-radius: 10px;
+  text-align: center;
+}
+.adopted{
+  background-color: #6b95d2;
+  height: 700px;
+  width: 250px;
+  float:right;
+  border-radius: 10px;
+  text-align: center;
+}
+.chinContainer1 {
+  background: #72a270;
+  width: 90%;
+  height: 85%;
+  margin: 0 auto;
+  border-radius: 5px;
+  overflow:auto;
+}
+.chinContainer2 {
+  background-color: #6b6696;
+  width: 90%;
+  height: 85%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.chinEntry {
+  height: 250px;
+  background-color: burlywood;
+  margin: 10px;
+}
